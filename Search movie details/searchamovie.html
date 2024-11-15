@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="searchamovie.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="searchamovie.js"></script>
+
+    <div class="search">
+      <input
+        type="text"
+        id="moviename"
+        class="search-bar"
+        placeholder="Enter a movie.."
+      />
+      <button class="search-btn" onclick="searchmovie()">Search</button>
+    </div>
+    <div class="container">
+      <div class="content">
+        <h1 id="title"></h1>
+        <p>Director: <span id="director"></span></p>
+        <p>Actors: <span id="actors"></span></p>
+        <p>Box office: <span id="boxoffice"></span></p>
+        <p>Genre: <span id="genre"></span></p>
+        <p>Languages: <span id="languages"></span></p>
+        <p>Awards: <span id="awards"></span></p>
+        <p>Writer: <span id="writer"></span></p>
+        <p>IMDB Ratings: <span id="ratings"></span></p>
+        <p>Released on: <span id="date"></span></p>
+      </div>
+      <img class="poster" id="poster" alt="" />
+    </div>
+  </body>
+</html>
